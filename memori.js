@@ -165,7 +165,7 @@ startButton.addEventListener("click", () => {
     //Start timer
     interval = setInterval(timeGenerator, 1000);
     //initial moves
-    moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
+    moves.innerHTML = `<span>Langkah:</span> ${movesCount}`;
     initializer();
 });
 
